@@ -10,9 +10,9 @@ public class Calculator {
         return a - b;
     }
 
-    public int divie(int a, int b) {
+    public int divide(int a, int b) {
         if (b == 0){
-            throw new IllegalArgumentException("b cannot be 0");
+            throw new IllegalArgumentException("b cannot be 0 - please change input");
         }
         return a / b;
     }
